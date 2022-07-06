@@ -249,81 +249,8 @@ new class{constructor({position:a="bottom-left"}={}){this.position=this.getPosit
             cursor: pointer;
             border-radius: 0;
           }
-          .button {
-            padding: 13px;
-            border-radius: 6px;
-            background-color: #ff56a2;
-            color: #fff;
-            font-size: 13px;
-            line-height: 1em;
-          }
-          .icon {
-              cursor: pointer;
-              width: 70%;
-              position: absolute;
-              top: 9px;
-              left: 9px;
-              transition: transform .3s ease;
-          }
           .hidden {
               transform: scale(0);
-          }
-          .button-container {
-              background-color: #04b73f;
-              width: 60px;
-              height: 60px;
-              border-radius: 50%;
-          }
-          .message-container {
-              box-shadow: 0 0 18px 8px rgba(0, 0, 0, 0.1), 0 0 32px 32px rgba(0, 0, 0, 0.08);
-              width: 400px;
-              right: -25px;
-              bottom: 75px;
-              max-height: 400px;
-              position: absolute;
-              transition: max-height .2s ease;
-              font-family: Helvetica, Arial ,sans-serif;
-          }
-          .message-container.hidden {
-              max-height: 0px;
-          }
-          .message-container h2 {
-              margin: 0;
-              padding: 20px 20px;
-              color: #fff;
-              background-color: #04b73f;
-          }
-          .message-container .content {
-              margin: 20px 10px ;
-              border: 1px solid #dbdbdb;
-              padding: 10px;
-              display: flex;
-              background-color: #fff;
-              flex-direction: column;
-          }
-          .message-container form * {
-              margin: 5px 0;
-          }
-          .message-container form input {
-              padding: 10px;
-          }
-          .message-container form textarea {
-              height: 100px;
-              padding: 10px;
-          }
-          .message-container form textarea::placeholder {
-              font-family: Helvetica, Arial ,sans-serif;
-          }
-          .message-container form button {
-              cursor: pointer;
-              background-color: #04b73f;
-              color: #fff;
-              border: 0;
-              border-radius: 4px;
-              padding: 10px;
-          }
-          .message-container form button:hover {
-              background-color: #16632f;
           }
           .video-icons {
             position: absolute;
@@ -487,11 +414,6 @@ new class{constructor({position:a="bottom-left"}={}){this.position=this.getPosit
             left: -100%;
             object-fit: cover;
             z-index: -100;
-          }
-          img {
-            max-width: 100%;
-            vertical-align: middle;
-            display: inline-block;
           }
           @media screen and (max-width: 991px) {
             .cheer-background-video {
