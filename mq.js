@@ -14,7 +14,8 @@ new class t{constructor(){this.initalise()}async initalise(){async function t(t)
             background-image: none; 
             background-position: 0px 0px;
             background-size: auto;
-            margin-right: 30px
+            margin-right: 30px;
+            cursor: pointer;
           }
           .rfrdmq-w-background-video {
             position: relative;
