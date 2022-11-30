@@ -44,7 +44,7 @@
       const container = document.createElement('div')
       container.classList.add('rfrd-cheer-wrapper')
       container.id = "widg2"
-      // container.style = "height: 0px"
+      container.style = "display: none;"
       this.container = container
       // container.style.position = 'fixed'
       // Object.keys(this.position)
@@ -743,7 +743,7 @@
         videorowOne.appendChild(videoheadingsOne)
 
         var videotabOne = document.createElement('div')
-        videotabOne.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'rfrd-w--tab-active')
+        videotabOne.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'rfrd-w--tab-active', 'hiw2')
         videotabOne.setAttribute('data-id', widget.videos[0].videoid._id);
         var videoflyoutOne = document.createElement('div')
         videoflyoutOne.classList.add('rfrd-video-flyout-wrap')
@@ -895,7 +895,7 @@
         videorowTwo.appendChild(videoheadingsTwo)
 
         var videotabOne = document.createElement('div')
-        videotabOne.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'rfrd-w--tab-active')
+        videotabOne.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'rfrd-w--tab-active', 'hiw2')
         videotabOne.setAttribute('data-id', widget.videos[0].videoid._id);
         var videoflyoutOne = document.createElement('div')
         videoflyoutOne.classList.add('rfrd-video-flyout-wrap')
@@ -987,7 +987,7 @@
         videoembedOne.appendChild(videoicons1)
 
         var videotabTwo = document.createElement('div')
-        videotabTwo.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane')
+        videotabTwo.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'hiw2')
         videotabTwo.setAttribute('data-id', widget.videos[1].videoid._id);
         var videoflyoutTwo = document.createElement('div')
         videoflyoutTwo.classList.add('rfrd-video-flyout-wrap')
@@ -1116,7 +1116,7 @@
         videoheadingsOne.appendChild(videotitleOne)
         videorowOne.appendChild(videoheadingsOne)
         var videotabOne = document.createElement('div')
-        videotabOne.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'rfrd-w--tab-active')
+        videotabOne.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'rfrd-w--tab-active', 'hiw2')
         videotabOne.setAttribute('data-id', widget.videos[0].videoid._id);
         var videoflyoutOne = document.createElement('div')
         videoflyoutOne.classList.add('rfrd-video-flyout-wrap')
@@ -1229,7 +1229,7 @@
         videoheadingsTwo.appendChild(videotitleTwo)
         videorowTwo.appendChild(videoheadingsTwo)
         var videotabTwo = document.createElement('div')
-        videotabTwo.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane')
+        videotabTwo.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'hiw2')
         videotabTwo.setAttribute('data-id', widget.videos[1].videoid._id);
         var videoflyoutTwo = document.createElement('div')
         videoflyoutTwo.classList.add('rfrd-video-flyout-wrap')
@@ -1345,7 +1345,7 @@
         videoheadingsThree.appendChild(videotitleThree)
         videorowThree.appendChild(videoheadingsThree)
         var videotabThree = document.createElement('div')
-        videotabThree.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane')
+        videotabThree.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'hiw2')
         videotabThree.setAttribute('data-id', widget.videos[2].videoid._id);
         var videoflyoutThree = document.createElement('div')
         videoflyoutThree.classList.add('rfrd-video-flyout-wrap')
@@ -1473,7 +1473,7 @@
         videoheadingsOne.appendChild(videotitleOne)
         videorowOne.appendChild(videoheadingsOne)
         var videotabOne = document.createElement('div')
-        videotabOne.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'rfrd-w--tab-active')
+        videotabOne.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'rfrd-w--tab-active', 'hiw2')
         videotabOne.setAttribute('data-id', widget.videos[0].videoid._id);
         var videoflyoutOne = document.createElement('div')
         videoflyoutOne.classList.add('rfrd-video-flyout-wrap')
@@ -1586,7 +1586,7 @@
         videoheadingsTwo.appendChild(videotitleTwo)
         videorowTwo.appendChild(videoheadingsTwo)
         var videotabTwo = document.createElement('div')
-        videotabTwo.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane')
+        videotabTwo.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'hiw2')
         videotabTwo.setAttribute('data-id', widget.videos[1].videoid._id);
         var videoflyoutTwo = document.createElement('div')
         videoflyoutTwo.classList.add('rfrd-video-flyout-wrap')
@@ -1699,7 +1699,7 @@
         videoheadingsThree.appendChild(videotitleThree)
         videorowThree.appendChild(videoheadingsThree)
         var videotabThree = document.createElement('div')
-        videotabThree.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane')
+        videotabThree.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'hiw2')
         videotabThree.setAttribute('data-id', widget.videos[2].videoid._id);
         var videoflyoutThree = document.createElement('div')
         videoflyoutThree.classList.add('rfrd-video-flyout-wrap')
@@ -1812,7 +1812,7 @@
         videoheadingsFour.appendChild(videotitleFour)
         videorowFour.appendChild(videoheadingsFour)
         var videotabFour = document.createElement('div')
-        videotabFour.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane')
+        videotabFour.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'hiw2')
         videotabFour.setAttribute('data-id', widget.videos[3].videoid._id);
         var videoflyoutFour = document.createElement('div')
         videoflyoutFour.classList.add('rfrd-video-flyout-wrap')
@@ -1942,7 +1942,7 @@
         videoheadingsOne.appendChild(videotitleOne)
         videorowOne.appendChild(videoheadingsOne)
         var videotabOne = document.createElement('div')
-        videotabOne.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'rfrd-w--tab-active')
+        videotabOne.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'rfrd-w--tab-active', 'hiw2')
         videotabOne.setAttribute('data-id', widget.videos[0].videoid._id);
         var videoflyoutOne = document.createElement('div')
         videoflyoutOne.classList.add('rfrd-video-flyout-wrap')
@@ -2055,7 +2055,7 @@
         videoheadingsTwo.appendChild(videotitleTwo)
         videorowTwo.appendChild(videoheadingsTwo)
         var videotabTwo = document.createElement('div')
-        videotabTwo.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane')
+        videotabTwo.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'hiw2')
         videotabTwo.setAttribute('data-id', widget.videos[1].videoid._id);
         var videoflyoutTwo = document.createElement('div')
         videoflyoutTwo.classList.add('rfrd-video-flyout-wrap')
@@ -2168,7 +2168,7 @@
         videoheadingsThree.appendChild(videotitleThree)
         videorowThree.appendChild(videoheadingsThree)
         var videotabThree = document.createElement('div')
-        videotabThree.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane')
+        videotabThree.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'hiw2')
         videotabThree.setAttribute('data-id', widget.videos[2].videoid._id);
         var videoflyoutThree = document.createElement('div')
         videoflyoutThree.classList.add('rfrd-video-flyout-wrap')
@@ -2281,7 +2281,7 @@
         videoheadingsFour.appendChild(videotitleFour)
         videorowFour.appendChild(videoheadingsFour)
         var videotabFour = document.createElement('div')
-        videotabFour.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane')
+        videotabFour.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'hiw2')
         videotabFour.setAttribute('data-id', widget.videos[3].videoid._id);
         var videoflyoutFour = document.createElement('div')
         videoflyoutFour.classList.add('rfrd-video-flyout-wrap')
@@ -2394,7 +2394,7 @@
         videoheadingsFive.appendChild(videotitleFive)
         videorowFive.appendChild(videoheadingsFive)
         var videotabFive = document.createElement('div')
-        videotabFive.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane')
+        videotabFive.classList.add('rfrd-video-tab-pane', 'rfrd-w-tab-pane', 'hiw2')
         videotabFive.setAttribute('data-id', widget.videos[4].videoid._id);
         var videoflyoutFive = document.createElement('div')
         videoflyoutFive.classList.add('rfrd-video-flyout-wrap')
@@ -2537,7 +2537,7 @@
       this.messageContainer.classList.add('rfrd-hidden');
       this.playimg.removeAttribute("style")
       this.pauseimg.style.display = 'none'
-      var videos = document.querySelectorAll(".rfrd-video-tab-pane");
+      var videos = document.querySelectorAll(".hiw2");
       videos.forEach(function(item) {
           item.firstChild.firstChild.firstChild.pause();
           item.firstChild.firstChild.firstChild.currentTime = 0;
@@ -2551,7 +2551,7 @@
       // this.soundoff.removeAttribute("style")
       event.target.closest('.rfrdsoundcontainer').lastChild.removeAttribute("style")
       event.target.closest('.sound-on').style.display = 'none'
-      var videos = document.querySelectorAll(".rfrd-video-tab-pane");
+      var videos = document.querySelectorAll(".hiw2");
       videos.forEach(function(item) {
         if (item.classList.contains('rfrd-w--tab-active') ) {
           item.firstChild.firstChild.firstChild.muted = !item.firstChild.firstChild.firstChild.muted;
@@ -2568,7 +2568,7 @@
       // this.soundon.removeAttribute("style")
       event.target.closest('.rfrdsoundcontainer').firstChild.removeAttribute("style")
       event.target.closest('.sound-off').style.display = 'none'
-      var videos = document.querySelectorAll(".rfrd-video-tab-pane");
+      var videos = document.querySelectorAll(".hiw2");
       videos.forEach(function(item) {
         if (item.classList.contains('rfrd-w--tab-active') ) {
           item.firstChild.firstChild.firstChild.muted = !item.firstChild.firstChild.firstChild.muted;
@@ -2580,7 +2580,7 @@
     }
   
     toggleFullScreen() {
-      var videos = document.querySelectorAll(".rfrd-video-tab-pane");
+      var videos = document.querySelectorAll(".hiw2");
       videos.forEach(function(item) {
         if (item.classList.contains('rfrd-w--tab-active') ) {
           item.firstChild.firstChild.firstChild.requestFullscreen()
@@ -2596,7 +2596,7 @@
       event.target.closest('.rfrdplaycontainer').firstChild.firstChild.removeAttribute("style")
       event.target.style.display = 'none'
       // this.mainvideo1.play();
-      var videos = document.querySelectorAll(".rfrd-video-tab-pane");
+      var videos = document.querySelectorAll(".hiw2");
       videos.forEach(function(item) {
         if (item.classList.contains('rfrd-w--tab-active') ) {
           // console.log("item.getAttribute('data-id'):", item.getAttribute('data-id'))
@@ -2614,7 +2614,7 @@
       event.target.closest('.rfrdplaycontainer').lastChild.firstChild.removeAttribute("style")
       event.target.style.display = 'none'
       // this.mainvideo1.pause();
-      var videos = document.querySelectorAll(".rfrd-video-tab-pane");
+      var videos = document.querySelectorAll(".hiw2");
       videos.forEach(function(item) {
         if (item.classList.contains('rfrd-w--tab-active') ) {
           item.firstChild.firstChild.firstChild.pause()
@@ -2631,7 +2631,7 @@
       // this.playimg.removeAttribute("style")
       // this.pauseimg.style.display = 'none'
       var id = event.target.closest('.rfrd-video-row').getAttribute('data-id')
-      var videos = document.querySelectorAll(".rfrd-video-tab-pane");
+      var videos = document.querySelectorAll(".hiw2");
       videos.forEach(function(item) {
         if (id == item.getAttribute('data-id') ) {
           // item.classList.remove('rfrd-hidden')
