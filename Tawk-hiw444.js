@@ -214,8 +214,8 @@
           .rfrd-page-bg {
             position: fixed;
             left: 0%;
-            top: 30%;
-            right: 50%;
+            top: 100%;
+            right: 100%;
             bottom: 0%;
             background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.58), transparent 60%);
           }
