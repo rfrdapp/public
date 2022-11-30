@@ -37,6 +37,6 @@ jQuery(function($) {
     $('#widg4').show()
   })
 
-  $('#w-tabs-0-data-w-tab-0').click()
+  $('#w-tabs-0-data-w-tab-0').trigger("click");
   
 })
