@@ -1113,6 +1113,7 @@
           videotitleOne.textContent = widget.videos[0].videoid.jobtitle + ', ' + widget.videos[0].videoid.worksat
         }
         else {}
+        videotitleOne.textContent = "Product Version"
         videoheadingsOne.appendChild(videonameOne)
         videoheadingsOne.appendChild(videotitleOne)
         videorowOne.appendChild(videoheadingsOne)
@@ -1226,6 +1227,7 @@
           videotitleTwo.textContent = widget.videos[1].videoid.jobtitle + ', ' + widget.videos[1].videoid.worksat
         }
         else {}
+        videotitleTwo.textContent = "User Permission"
         videoheadingsTwo.appendChild(videonameTwo)
         videoheadingsTwo.appendChild(videotitleTwo)
         videorowTwo.appendChild(videoheadingsTwo)
@@ -1342,6 +1344,7 @@
           videotitleThree.textContent = widget.videos[2].videoid.jobtitle + ', ' + widget.videos[2].videoid.worksat
         }
         else {}
+        videotitleThree.textContent = "Customer Data Platform"
         videoheadingsThree.appendChild(videonameThree)
         videoheadingsThree.appendChild(videotitleThree)
         videorowThree.appendChild(videoheadingsThree)
