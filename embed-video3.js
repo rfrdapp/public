@@ -1,4 +1,4 @@
-new class e{constructor(){this.initalise()}async initalise(){async function e(e){let t=await fetch("https://app.rfrd.io/read/video/"+e).then(e=>e.json());return t}let t=document.getElementsByClassName("embed-video-class");console.log("vid:",t),console.log("vid.length:",t.length);for(let i=0;i<t.length;i++){console.log('vid[index].getAttribute("data-id"):',t[i].getAttribute("data-id"));var r=await e(t[i].getAttribute("data-id"));console.log("magicq:",r);var o=t[i],d=document.createElement("div");d.classList.add("rfrd-video-play","rfrd-w-video","w-embed");let a=document.createElement("video");a.classList.add("rfrd-mainvid"),a.setAttribute("data-id",r._id),a.style="background-image:url('"+r.screengrab+"')",this.mainvideo1=a,this.mainvideo1.innerHTML='<source src="'+r.link+'" data-wf-ignore="true">',d.appendChild(this.mainvideo1);let s=document.createElement("div");s.classList.add("rfrd-video-icons");let n=document.createElement("div");n.classList.add("rfrdsoundcontainer");let l=document.createElement("div");l.classList.add("sound-on"),this.soundon1=l,this.soundon1.addEventListener("click",this.toggleSoundOn.bind(this));let p=document.createElement("img");p.classList.add("rfrd-video-icon"),p.src="https://assets.website-files.com/5e62b74e92e93371af2386aa/61f471968311785ca000deb4_sound%20on.svg";let c=document.createElement("div");c.style.display="none",c.classList.add("sound-off"),this.soundoff1=c,this.soundoff1.addEventListener("click",this.toggleSoundOff.bind(this));let f=document.createElement("img");f.classList.add("rfrd-video-icon"),f.src="https://assets.website-files.com/5e62b74e92e93371af2386aa/61f4718b5bc38a8ec998e79d_sound%20off.svg",this.soundon1.appendChild(p),this.soundoff1.appendChild(f),n.appendChild(this.soundon1),n.appendChild(this.soundoff1);let b=document.createElement("div");b.classList.add("rfrdplaycontainer");let g=document.createElement("div");g.classList.add("pause-video-block");let h=document.createElement("img");h.classList.add("rfrd-video-icon"),h.style.display="none",h.src="https://assets.website-files.com/5e62b74e92e93371af2386aa/61f46e4fa465082830b2901a_pauseicon.svg",this.pauseimg1=h,this.pauseimg1.addEventListener("click",this.pauseVid.bind(this));let $=document.createElement("div");$.classList.add("play-video-block");let x=document.createElement("img");x.classList.add("rfrd-video-icon"),x.src="https://assets.website-files.com/5e62b74e92e93371af2386aa/61f46ec2a8ae0801811c4c3e_playico.svg",this.playimg1=x,this.playimg1.addEventListener("click",this.playVid.bind(this)),g.appendChild(this.pauseimg1),$.appendChild(this.playimg1),b.appendChild(g),b.appendChild($);let u=document.createElement("div"),m=document.createElement("img");m.classList.add("rfrd-video-icon"),m.src="https://assets.website-files.com/5e62b74e92e93371af2386aa/61f46e4f6a5ac52cc0393bce_expand.svg",this.fullscreenimg1=m,this.fullscreenimg1.addEventListener("click",this.toggleFullScreen.bind(this)),u.appendChild(this.fullscreenimg1),s.appendChild(n),s.appendChild(b),s.appendChild(u),d.appendChild(s),o.appendChild(d)}this.createStyles(r)}createStyles(e){let t=document.createElement("style");t.innerHTML=`
+new class e{constructor(){this.initalise()}async initalise(){async function e(e){let t=await fetch("https://app.rfrd.io/read/video/"+e).then(e=>e.json());return t}let t=document.getElementsByClassName("embed-video-class");console.log("vid:",t),console.log("vid.length:",t.length);for(let i=0;i<t.length;i++){console.log('vid[index].getAttribute("data-id"):',t[i].getAttribute("data-id"));var r=await e(t[i].getAttribute("data-id"));console.log("magicq:",r);var o=t[i],d=document.createElement("div");d.classList.add("rfrd-video-play","rfrd-w-video","w-embed");let a=document.createElement("video");a.classList.add("rfrd-mainvid"),a.setAttribute("data-id",r._id),a.style="background-image:url('"+r.screengrab+"')",this.mainvideo1=a,this.mainvideo1.innerHTML='<source src="'+r.link+'" data-wf-ignore="true">',d.appendChild(this.mainvideo1);let s=document.createElement("div");s.classList.add("rfrd-video-icons");let n=document.createElement("div");n.classList.add("rfrdsoundcontainer");let l=document.createElement("div");l.classList.add("sound-on"),this.soundon1=l,this.soundon1.addEventListener("click",this.toggleSoundOn.bind(this));let p=document.createElement("img");p.classList.add("rfrd-video-icon"),p.src="https://assets.website-files.com/5e62b74e92e93371af2386aa/61f471968311785ca000deb4_sound%20on.svg";let c=document.createElement("div");c.style.display="none",c.classList.add("sound-off"),this.soundoff1=c,this.soundoff1.addEventListener("click",this.toggleSoundOff.bind(this));let f=document.createElement("img");f.classList.add("rfrd-video-icon"),f.src="https://assets.website-files.com/5e62b74e92e93371af2386aa/61f4718b5bc38a8ec998e79d_sound%20off.svg",this.soundon1.appendChild(p),this.soundoff1.appendChild(f),n.appendChild(this.soundon1),n.appendChild(this.soundoff1);let b=document.createElement("div");b.classList.add("rfrdplaycontainer");let g=document.createElement("div");g.classList.add("pause-video-block");let h=document.createElement("img");h.classList.add("rfrd-video-icon"),h.style.display="none",h.src="https://assets.website-files.com/5e62b74e92e93371af2386aa/61f46e4fa465082830b2901a_pauseicon.svg",this.pauseimg1=h,this.pauseimg1.addEventListener("click",this.pauseVid.bind(this));let $=document.createElement("div");$.classList.add("play-video-block");let u=document.createElement("img");u.classList.add("rfrd-video-icon"),u.src="https://assets.website-files.com/5e62b74e92e93371af2386aa/61f46ec2a8ae0801811c4c3e_playico.svg",this.playimg1=u,this.playimg1.addEventListener("click",this.playVid.bind(this)),g.appendChild(this.pauseimg1),$.appendChild(this.playimg1),b.appendChild(g),b.appendChild($);let x=document.createElement("div");x.classList.add("rfrdfullscreencontainer");let m=document.createElement("img");m.classList.add("rfrd-video-icon"),m.src="https://assets.website-files.com/5e62b74e92e93371af2386aa/61f46e4f6a5ac52cc0393bce_expand.svg",this.fullscreenimg1=m,this.fullscreenimg1.addEventListener("click",this.toggleFullScreen.bind(this)),x.appendChild(this.fullscreenimg1),s.appendChild(n),s.appendChild(b),s.appendChild(x),d.appendChild(s),o.appendChild(d)}this.createStyles(r)}createStyles(e){let t=document.createElement("style");t.innerHTML=`
           .rfrd-cheer-wrapper {
             position: fixed;
             left: 0%;
@@ -204,16 +204,16 @@ new class e{constructor(){this.initalise()}async initalise(){async function e(e)
           }
           .rfrd-video-icons {
             position: absolute;
-            left: 0%;
+            left: 72%;
             top: auto;
             right: 0%;
-            bottom: 10px;
+            bottom: 110px;
             z-index: 10;
             display: -webkit-box;
             display: -webkit-flex;
             display: -ms-flexbox;
             display: flex;
-            width: 170px;
+            width: 130px;
             margin-right: auto;
             margin-left: auto;
             padding: 10px 10px 12px;
@@ -229,6 +229,7 @@ new class e{constructor(){this.initalise()}async initalise(){async function e(e)
             background-color: rgba(0, 0, 0, 0.2);
             -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
+            transform: rotate(90deg);
           }
           .rfrd-video-icon {
             width: 20px;
@@ -363,6 +364,15 @@ new class e{constructor(){this.initalise()}async initalise(){async function e(e)
             top: -100%;
             left: -100%;
             object-fit: cover;
+          }
+          .rfrdsoundcontainer {
+            transform: rotate(-90deg);
+          }
+          .rfrdplaycontainer {
+            transform: rotate(-90deg);
+          }
+          .rfrdfullscreencontainer {
+            transform: rotate(-90deg);
           }
           @media screen and (max-width: 991px) {
             .rfrd-cheer-bg {
