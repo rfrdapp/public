@@ -384,7 +384,7 @@ new class e{constructor(){this.initalise()}async initalise(){async function e(e)
           }
           @media screen and (max-width: 479px) {
             .embed-video-class {
-              display: inline-block;
+              display: block;
             }
             .rfrd-cheer-wrapper {
               width: 100%;
